@@ -1,5 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import AppHeader from "./components/AppHeader.vue";
+import MainPage from "./pages/MainPage.vue";
+</script>
 
-<template>hello world</template>
+<template>
+  <AppHeader />
+  <MainPage />
+</template>
 
 <style scoped></style>
