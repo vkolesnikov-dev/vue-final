@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import AppHeader from "./components/AppHeader.vue";
-import MainPage from "./pages/MainPage.vue";
+import AppPosts from "./components/AppPosts.vue";
 </script>
 
 <template>
   <AppHeader />
-  <MainPage />
+  <AppPosts />
 </template>
 
 <style scoped></style>
