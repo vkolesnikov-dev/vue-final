@@ -1,6 +1,5 @@
 <script setup lang="ts">
 const props = defineProps({
-  id: Number,
   content: String,
   title: String,
   author: String,
